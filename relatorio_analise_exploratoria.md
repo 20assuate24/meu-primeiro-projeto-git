@@ -97,3 +97,37 @@ Treino do modelo conclu�do!
     accuracy                           0.66       200
    macro avg       0.60      0.57      0.57       200
 weighted avg       0.63      0.66      0.63       200
+
+### 5. Resultados finais do projecto
+O nosso sistema de recomendação funciona, mas tem uma limitação crítica: ele é frágil a novas informações. Se uma nova issue tiver palavras ou rótulos que não estavam no nosso conjunto de treino, o modelo não vai conseguir usá-los para fazer a previsão.
+
+$ python recommend_assignee.py
+Modelo e ferramentas de pré-processamento carregadas com sucesso.
+$ python recommend_assignee.py
+Modelo e ferramentas de pré-processamento carregadas com sucesso.
+C:\Users\SWIFT\anaconda3\Lib\site-packages\sklearn\preprocessing\_label.py:900: UserWarning: unknown class(es) ['core-api', 'enhancement'] will be igModelo e ferramentas de pré-processamento carregadas com sucesso.
+C:\Users\SWIFT\anaconda3\Lib\site-packages\sklearn\preprocessing\_label.py:900: UserWarning: unknown class(es) ['core-api', 'enhancement'] will be igC:\Users\SWIFT\anaconda3\Lib\site-packages\sklearn\preprocessing\_label.py:900: UserWarning: unknown class(es) ['core-api', 'enhancement'] will be ignored
+  warnings.warn(
+
+  warnings.warn(
+
+--- Previsão do Modelo ---
+
+--- Previsão do Modelo ---
+Previsão: Esta issue provavelmente será RÁPIDA.
+--- Previsão do Modelo ---
+Previsão: Esta issue provavelmente será RÁPIDA.
+Probabilidade de ser Rápida: 65.00%
+Previsão: Esta issue provavelmente será RÁPIDA.
+Probabilidade de ser Rápida: 65.00%
+
+--- Recomendação para a Issue ---
+Probabilidade de ser Rápida: 65.00%
+
+--- Recomendação para a Issue ---
+
+--- Recomendação para a Issue ---
+Como a issue é simples e provavelmente rápida, pode ser atribuída a um colaborador menos experiente para agilizar o fluxo.
+--- Recomendação para a Issue ---
+Como a issue é simples e provavelmente rápida, pode ser atribuída a um colaborador menos experiente para agilizar o fluxo.
+Como a issue é simples e provavelmente rápida, pode ser atribuída a um colaborador menos experiente para agilizar o fluxo.
