@@ -43,7 +43,7 @@ A ferramenta final é capaz de:
 
 1.  Clone este repositório:
     ```bash
-    git clone [SEU LINK DO GITHUB AQUI]
+    git clone https://github.com/20assuate24/meu-primeiro-projeto-git.git
     ```
 2.  Instale as dependências:
     ```bash
